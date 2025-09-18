@@ -22,7 +22,7 @@ const Country = ({ country, handelVisitedCountry }) => {
 
     return (
         <div className="border border-gray-500 bg-gray-100 rounded-2xl p-5 mb-5">
-            <img src={country.flags.flags.png} alt="" className='rounded-xl border border-gray-400 w-full h-max' />
+            <img src={country.flags.flags.png} alt="" className='rounded-xl border border-gray-400 w-full h-52 object-cover' />
             <h2 className='text-2xl font-bold text-center mt-2'> {country.name.common}</h2>
             <p className='text-xl font-semibold text-center'>{country.population.population}</p>
             <button
